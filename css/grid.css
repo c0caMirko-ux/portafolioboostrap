@@ -1,0 +1,64 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .card {
+    background-color: #292b2c;
+    color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+    background-color: #343a40 !important;
+}
+
+.dark-mode footer {
+    background-color: #343a40 !important;
+    color: #e0e0e0;
+}
+
+.dark-mode .modal-content {
+    background-color: #292b2c;
+    color: #e0e0e0;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.carousel-item img {
+    transition: transform 0.3s ease;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+/* Animaciones para elementos */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Estilos para el modal */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Estilos para el mapa */
+.map-container {
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
